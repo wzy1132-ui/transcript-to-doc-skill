@@ -1,0 +1,4 @@
+interface:
+  display_name: "直播录音转写整理"
+  short_description: "将陈宇廷/破晓直播录音转为格式规范、段落分明的校对版Word文档"
+  default_prompt: "使用 $transcript-to-doc 来处理直播录音的转写文字稿，生成格式规范的校对版Word文档。"
