@@ -1,0 +1,21 @@
+# Source transcripts and generated Word documents can contain private content.
+*.docx
+
+# Rendered previews and exports are generated during document QA.
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Do not distribute local font files or Python cache files.
+*.ttf
+*.ttc
+__pycache__/
+*.py[cod]
+
+# Local environments and generated output folders.
+.env
+.venv/
+render-*/
+rendered-*/
+output/
